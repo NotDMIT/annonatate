@@ -1,0 +1,38 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_020"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Flies",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NotDMIT",
+                "name": "NotDMIT"
+            },
+            "created": "2025-03-21T13:23:25.152Z",
+            "modified": "2025-03-21T13:23:25.925Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_020/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/segIns_020",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1950.6534423828125,478.3607482910156,3892.4554443359375,3857.6348571777344"
+        }
+    },
+    "id": "22b9c009-79d3-42f0-bd4e-ffaac1c65d3f.json",
+    "motivation": "commenting"
+}
