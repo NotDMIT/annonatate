@@ -1,0 +1,37 @@
+---
+canvas: "https://notdmit.github.io/annonatate/img/derivatives/iiif/image/canvas/image-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "dollars",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NotDMIT",
+                "name": "NotDMIT"
+            },
+            "created": "2025-03-29T19:43:16.865Z",
+            "modified": "2025-03-29T19:43:22.077Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/image/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/image/canvas/image-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"46.195770263671875,129.9375762939453 260.0853576660156,105.0875473022461 275.90625,193.1875 51.093746185302734,222.75\"></polygon></svg>"
+        }
+    },
+    "id": "6d7b3d16-5f8b-42ae-9138-333ad9df5971.json",
+    "motivation": "commenting"
+}
