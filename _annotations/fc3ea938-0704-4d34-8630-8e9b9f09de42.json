@@ -1,0 +1,37 @@
+---
+canvas: "https://notdmit.github.io/annonatate/img/derivatives/iiif/image/canvas/image-1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Handgrenade",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NotDMIT",
+                "name": "NotDMIT"
+            },
+            "created": "2025-03-29T19:44:28.643Z",
+            "modified": "2025-03-29T19:44:34.695Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/image/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/image/canvas/image-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"186.61834716796875,303.91064453125 179.18115234375,287.6924743652344 209.21873474121094,291.5 226.40623474121094,319 213.86968994140625,376.0625 186.6324462890625,417.3125 141.25765991210938,402.1875 143.5831298828125,344.27593994140625 169.0206298828125,310.58843994140625 169.7081298828125,308.52593994140625\"></polygon></svg>"
+        }
+    },
+    "id": "fc3ea938-0704-4d34-8630-8e9b9f09de42.json",
+    "motivation": "commenting"
+}
