@@ -1,12 +1,9 @@
 ---
-added: 2025-03-29 20&#58;03&#58;19.885363
-thumbnail: https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/8676147211654/full/125,/0/default.jpg
-title: Die niederlaendischen Sprichwoerter
-user: NotDMIT
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -24,7 +21,7 @@ user: NotDMIT
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -33,7 +30,7 @@ user: NotDMIT
       },
       "thumbnail": [
         {
-          "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/8676147211654/full/125,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/8676147211654/full/125,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -41,30 +38,36 @@ user: NotDMIT
       "width": 4000,
       "items": [
         {
-          "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/8676147211654/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/8676147211654/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2854,
                 "width": 4000,
                 "service": [
                   {
-                    "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/8676147211654",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/8676147211654",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dieniederlaendischensprichwoerter-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
