@@ -1,0 +1,38 @@
+---
+canvas: "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is one saying",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NotDMIT",
+                "name": "NotDMIT"
+            },
+            "created": "2025-05-06T13:31:44.757Z",
+            "modified": "2025-05-06T13:31:57.025Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=156.4514923095703,1108.4730224609375,168.4090118408203,248.030517578125"
+        }
+    },
+    "id": "c35d9dd9-cd33-4007-ae5d-fce2da583563.json",
+    "motivation": "commenting"
+}
