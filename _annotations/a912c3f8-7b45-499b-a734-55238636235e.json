@@ -1,0 +1,37 @@
+---
+canvas: "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Second saying",
+            "purpose": "commenting",
+            "creator": {
+                "id": "NotDMIT",
+                "name": "NotDMIT"
+            },
+            "created": "2025-05-06T13:34:20.790Z",
+            "modified": "2025-05-06T13:34:25.695Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://notdmit.github.io/annonatate/img/derivatives/iiif/dieniederlaendischensprichwoerter/canvas/dieniederlaendischensprichwoerter-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"780.9551391601562,593.7937622070312 690.4990234375,515.9252319335938 541.9737548828125,228.9934844970703 637.44189453125,82.08586120605469 860.1207275390625,223.11578369140625 1123.6240234375,590.5358276367188\"></polygon></svg>"
+        }
+    },
+    "id": "a912c3f8-7b45-499b-a734-55238636235e.json",
+    "motivation": "commenting"
+}
